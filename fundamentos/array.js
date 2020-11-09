@@ -19,7 +19,7 @@ console.log(valores.pop())  //exclui o ultimo elemento presente no array
 console.log(valores)
 
 delete valores[0]   //exclui um elemento de indice qualquer do array
-console.log(valores)   
+console.log(valores)   //mostrando os valores do array como um todo
 
 
 console.log(typeof valores)   //um array em javascript é do tipo object
