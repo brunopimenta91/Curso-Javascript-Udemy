@@ -1,5 +1,7 @@
 let qualquer = 'legal'
 
+let nenhum = 'maldade'
+
 console.log(qualquer)
 console.log(typeof qualquer)
 
