@@ -29,7 +29,7 @@ console.log(!!(isAtivo = false))  //atribuição que o lado direito seja um valo
 
 console.log(!!('' || null || ' epa'))   //reconhece o valor verdadeiro 'epa' que se comporta como true
 
-let nome = ''
+let nome = ''  //string vazia ou com nome digitado  - let nome = 'bruno'
 console.log(nome || 'sem nome')
 
 //
