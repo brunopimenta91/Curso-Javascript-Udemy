@@ -10,8 +10,14 @@ console.log(prod1)   //mostrando no console, o objeto criado e seus atributos
 
 //OBS: OS OBJETOS SÃO CONJUNTOS DE PARES CHAVE - VALOR
 
+//segunda forma de declarar um objeto e seus atributos, dinamicamente. Já com o conjuto de bloco e chaves e valores
 
+const prod2 = {
+    nome: 'prancha de surfe',
+    preco: 3000
+}
 
+console.log(prod2)
 
 
 
