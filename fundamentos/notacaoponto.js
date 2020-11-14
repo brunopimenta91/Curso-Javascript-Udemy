@@ -21,7 +21,7 @@ const obj3 = new Obj('sofá')    //isntanciando OUTRO instancia do objeto Obj
 console.log(obj2.nome)   //Com a notacao ponto, conseguimos acessar o conteudo do atributo que foi tornado visivel com o uso do THIS
 console.log(obj3.nome)
 
-
+obj3.exec()  //constante obj3 tendo acesso à função interna definida na funcao Obj
 
 
 
