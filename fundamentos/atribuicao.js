@@ -8,7 +8,7 @@ b += a               //b = b + a
 console.log(b)
 
 //atribuicao subtrativa - atribui e ao mesmo tempo subtrai um valor a variavel do lado esquerdo
-b -= a              //b = b - a
+b -= 4              //b = b - 4
 console.log(b)
 
 //atribuicao multiplicativa atribui e ao mesmo tempo multiplica um valor a variavel do lado esquerdo
