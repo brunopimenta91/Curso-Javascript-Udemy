@@ -11,9 +11,18 @@ for (x in nums) {
 
 for (y in nums) {
     if(y == 5) {
-        continue   //interrompe e pula o laço especificado, continuando o laço. Funciona especificamente em laços
+        continue   //interrompe e pula o laço especificado, continuando o laço. Funciona especificamente em laços de repetição
     }
     console.log(`${y} = ${nums[y]}`)
+}
+
+
+//₢riado um rotulo  - NÃO USAR ESSE TIPO DE ESTRUTURA, prática ruim
+externo: for (a in nums) {
+    for (b in nums) {
+        if (a == 2 && b == 3) break externo  //break externo, o break irá agir sobre o laço for mais externo, e nao no interno. se n tivesse o rotulo, iria interromper o laço for mais interno
+        console.log(`Par = ${a}, ${b}`)
+    }
 }
 
 
