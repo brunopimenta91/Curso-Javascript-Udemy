@@ -12,7 +12,7 @@ do {
     numero = gerandoInteiroAleatorio(0, 10)
 } while (numero != 0)   //A ESTRUTURA DO WHILE É A unica estrutura de controle que o bloco de codigos executaveis vem ANTES da expressao dentro dos parantesese do while
 
-console.log('O while acabou!')
+console.log('O while acabou!')    //Foi encerrado o laço, ai uma mensagem mostrando isso na tela que o laço acabou.
 
 
 
