@@ -1,6 +1,8 @@
 //uma constante global
 const valor = 'Global'
 
+//contexto léxico é todo o contexto ao redor de uma função, seja por acesso de variaveis e função, todo o meio que ela foi declarada. Isso é conexto lexico
+
 //função definida com contexto lexico levado em consideração, o valor mostrado será 'Global'
 function minhaFuncao() {
     console.log(valor)
