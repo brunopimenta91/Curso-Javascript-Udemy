@@ -1,4 +1,4 @@
-//definição de uma função construtora
+//definição de uma função construtora   - possibilita criar instancias de objetos
 
 function Carro(velocidadeMaxima = 200, acelerada = 5) {
     //atributo privado da função
