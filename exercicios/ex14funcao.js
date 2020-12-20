@@ -14,7 +14,8 @@ const pega_fruta = function (fruta) {
             frase = 'Estamos com escassez de kiwis'
             break;
         case 'melancia':
-            frase = 'Aqui está, são 3 reais o quilo'
+            let preco_melancia = 3.00
+            frase = `Aqui está, são ${preco_melancia.toFixed(2)} reais o quilo`
             break;
         default:
             frase = 'ERRO!!! mensagem de erro! FRUTA INVÁLIDA'
@@ -24,4 +25,4 @@ const pega_fruta = function (fruta) {
     return frase
 }
 
-console.log(pega_fruta(maça))
+console.log(pega_fruta('melancia'))
