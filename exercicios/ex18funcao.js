@@ -39,11 +39,15 @@ const lista_numeros = function (numero_digitado) {
             frase = 'dez'
             break;
         default:
-            frase 'numero fora do intervalo entre 0 e 10'
+            frase = 'numero fora do intervalo entre 0 e 10'
             break;
     }
 
     return frase
 }
 
+//diversas chmadas à função arrow presente na constante lista_numeros.
 console.log(lista_numeros(3))
+console.log(lista_numeros(100))
+console.log(lista_numeros(-12))
+console.log(lista_numeros(8))
