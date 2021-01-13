@@ -12,8 +12,7 @@ function maioridade_pessoa(ano_nascimento) {
     return informacao
 }
 
-//
-
+//mostrando no console diversas chamadas à função mmaioridade_pessoa()
 console.log(maioridade_pessoa(1991))
 
 console.log(maioridade_pessoa(2005))
