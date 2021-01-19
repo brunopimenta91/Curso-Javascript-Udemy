@@ -35,3 +35,4 @@ selecao_numeros(1, 2, 3)
 
 selecao_numeros(3, 100, 5)
 
+selecao_numeros('e', 100, 100)
