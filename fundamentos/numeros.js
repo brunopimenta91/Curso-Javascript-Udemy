@@ -19,3 +19,4 @@ console.log(media.toString(2))  //convertendo um numero em binario
 
 console.log(typeof media)  //verificando qual é o tipo do dado presente na varivel - com a função typeof
 
+console.log(typeof Number)
